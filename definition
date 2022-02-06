@@ -1,0 +1,17 @@
+def greeting():
+  name = input("what's your name? ")
+  print("hello "+name)
+  time= float(input("enter time:- "))
+  if time<0:
+    print("enter a valid input")
+  elif time>24:
+    print("enter a valid input")
+  elif time in range(0,12):
+    print("good morning "+name+" have a nice day") 
+  elif time in range(12.01,18):
+    print("good evening "+name+" have a great dinner")
+  elif time in range(18.1,24):
+    print("good night "+name+" have a great sleep")
+
+print ("hi")
+greeting()
